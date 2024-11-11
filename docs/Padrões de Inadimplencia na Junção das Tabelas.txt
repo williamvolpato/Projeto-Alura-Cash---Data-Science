@@ -1,0 +1,39 @@
+Consulta 1: Distribuição de Inadimplência por loan_grade
+•	As classificações de empréstimo mais arriscadas (D, E, F, G) apresentam uma taxa de inadimplência mais alta:
+o	G possui 63 inadimplentes entre 64 registros, indicando um risco altíssimo.
+o	Classificações D e E também têm taxas elevadas, com 2162 e 622 inadimplentes, respectivamente.
+o	As classificações de menor risco (A, B, C) têm menos inadimplentes, mas mesmo assim, A e B ainda apresentam uma quantidade significativa de inadimplentes (1123 e 1753, respectivamente).
+•	Insight: O loan_grade é um forte indicador de risco de inadimplência, com classificações mais altas associadas a maior risco.
+Consulta 2: Inadimplência por Faixa de Renda (person_income)
+•	Clientes de renda alta (acima de 75.000) têm menor inadimplência (958 inadimplentes), enquanto clientes de renda média têm o maior número de inadimplentes (5075).
+•	Curiosamente, clientes de renda baixa também têm uma taxa de inadimplência considerável (1234).
+•	Insight: Clientes de renda média podem estar mais sobrecarregados com suas dívidas, enquanto aqueles com renda baixa e alta apresentam menos inadimplência, possivelmente por estratégias financeiras diferentes.
+Consulta 3: Inadimplência por Proporção Empréstimo/Renda (loan_percent_income)
+•	Clientes com alta proporção de empréstimo/renda apresentam taxas de inadimplência significativamente mais altas (844 inadimplentes contra 296 adimplentes).
+•	A maioria dos clientes de baixa proporção de empréstimo/renda é adimplente (19034 adimplentes contra 2949 inadimplentes).
+•	Insight: A proporção empréstimo/renda é um bom indicador de risco. Clientes que comprometem uma grande parcela da renda com o empréstimo têm maior probabilidade de inadimplência.
+Consulta 4: Inadimplência por Motivo do Empréstimo (loan_intent)
+•	Os motivos Debt Consolidation (consolidação de dívidas), Education (educação), e Medical (médico) têm taxas de inadimplência mais altas:
+o	Debt Consolidation: 1517 inadimplentes
+o	Education: 1141 inadimplentes
+o	Medical: 1651 inadimplentes
+•	Insight: O motivo do empréstimo é relevante para o risco. Consolidação de dívidas, educação, e despesas médicas são associados a maiores taxas de inadimplência.
+Consulta 5: Inadimplência por Tempo de Emprego (person_emp_length)
+•	Clientes com menos de 5 anos de emprego apresentam maiores taxas de inadimplência:
+o	0 anos: 1172 inadimplentes
+o	1 ano: 820 inadimplentes
+o	2 anos: 1008 inadimplentes
+•	A taxa de inadimplência reduz conforme o tempo de emprego aumenta, sugerindo que maior estabilidade no emprego contribui para uma menor probabilidade de inadimplência.
+•	Insight: Tempo de emprego é um bom indicador de risco, com menos estabilidade associada a maior inadimplência.
+Consulta 6: Inadimplência por Tempo de Histórico de Crédito (cb_person_cred_hist_length)
+•	Clientes com um histórico de crédito de 2 a 10 anos apresentam as maiores taxas de inadimplência.
+•	Após 10 anos, a taxa de inadimplência diminui consideravelmente, indicando que um histórico de crédito mais longo pode estar associado a menor risco.
+•	Insight: O tempo de histórico de crédito é outro bom indicador de risco. Clientes com um histórico mais curto têm maior risco de inadimplência.
+Conclusões e Próximos Passos
+Essas análises confirmam que certas variáveis estão associadas a maior risco de inadimplência, como:
+•	loan_grade (classificações D, E, F, G)
+•	loan_percent_income (alta proporção de empréstimo/renda)
+•	loan_intent (consolidação de dívidas, educação e despesas médicas)
+•	person_emp_length (tempo de emprego curto)
+•	cb_person_cred_hist_length (histórico de crédito curto)
+Esses insights são valiosos para a modelagem preditiva, pois identificam variáveis que devem ser usadas como preditores.

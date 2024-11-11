@@ -1,0 +1,33 @@
+Consulta 1: Distribuição de Inadimplência por Faixa Etária
+•	A maior concentração de inadimplentes está nas faixas etárias de 21 a 30 anos, com uma diminuição progressiva nas faixas etárias mais avançadas.
+•	As faixas de idade abaixo de 20 anos e acima de 60 têm quantidades muito baixas, possivelmente por serem grupos demográficos menores no conjunto de dados.
+•	Isso indica que o risco de inadimplência pode ser mais alto entre jovens adultos, possivelmente devido à menor estabilidade financeira nesse grupo etário.
+Consulta 2: Inadimplência por Situação da Propriedade
+•	Rent (aluguel) tem a maior proporção de inadimplentes, com 5.331 inadimplentes contra 11.746 adimplentes, indicando uma alta taxa de inadimplência entre quem aluga.
+•	Mortgage (hipoteca) também possui um número significativo de inadimplentes, com 1.808 inadimplentes em relação a 12.173 adimplentes.
+•	Own (propriedade própria) tem uma taxa de inadimplência menor, sugerindo que pessoas com imóveis próprios apresentam mais estabilidade financeira.
+•	A situação da propriedade parece ser um bom indicador de risco, com quem está em situação de aluguel apresentando um maior risco de inadimplência.
+Consulta 3: Inadimplência por Motivo do Empréstimo
+•	Debt Consolidation e Education têm uma taxa de inadimplência relativamente alta, com 1.532 e 1.170 inadimplentes, respectivamente. Esses são os maiores motivos associados à inadimplência.
+•	Venture (investimento) e Medical (médico) também apresentam taxas de inadimplência consideráveis, o que pode ser esperado, dado que esses são motivos que muitas vezes envolvem riscos e despesas imprevistas.
+•	Essa análise sugere que o motivo do empréstimo é um fator importante para prever a inadimplência, com algumas finalidades de empréstimo apresentando maior risco.
+Consulta 4: Inadimplência por Classificação do Empréstimo (Loan Grade)
+•	As classificações D, E, F, e G têm uma proporção maior de inadimplentes em relação às classificações de menor risco (A, B, C).
+•	A classificação A possui 1.163 inadimplentes, enquanto G possui 63 inadimplentes entre 64 registros, indicando que os empréstimos de classificação G são extremamente arriscados.
+•	Essa distribuição confirma que o Loan Grade é um forte indicador de risco de inadimplência, com classificações mais baixas (maior risco) tendo maior taxa de inadimplência.
+Consulta 5: Inadimplência por Proporção Empréstimo/Renda (Loan Percent Income)
+•	Valores elevados de loan_percent_income (proporção entre o valor do empréstimo e a renda) têm uma maior taxa de inadimplência, como esperado.
+•	As maiores taxas de inadimplência ocorrem em faixas mais altas da proporção, como 0.5 ou mais, o que indica que clientes com empréstimos que representam uma alta parcela de sua renda anual têm maior risco de inadimplência.
+•	Isso sugere que a proporção entre o valor do empréstimo e a renda é um indicador útil para avaliação de risco.
+Consulta 6: Inadimplência por Tempo de Histórico de Crédito
+•	Clientes com histórico de crédito mais curto (2 a 4 anos) têm taxas de inadimplência significativamente maiores.
+•	O número de inadimplentes diminui à medida que o histórico de crédito aumenta, sugerindo que um histórico de crédito mais longo está associado a menor risco de inadimplência.
+•	Isso indica que o tempo de histórico de crédito pode ser um fator importante para prever a inadimplência, com clientes com histórico mais curto apresentando maior risco.
+Conclusão Geral dos Insights sobre Inadimplência
+•	Idade: Jovens adultos (21 a 30 anos) apresentam maior risco.
+•	Situação da Propriedade: Quem aluga tem maior probabilidade de inadimplência.
+•	Motivo do Empréstimo: Empréstimos para consolidação de dívidas e educação têm maiores taxas de inadimplência.
+•	Classificação do Empréstimo: Empréstimos de maior risco (classificação D, E, F, G) são mais propensos à inadimplência.
+•	Proporção Empréstimo/Renda: Proporções mais altas entre empréstimo e renda estão ligadas a maior risco.
+•	Tempo de Histórico de Crédito: Clientes com histórico de crédito mais curto apresentam maior risco.
+Esses insights podem orientar políticas de concessão de crédito, ajudando a identificar clientes de maior risco e a ajustar critérios de aprovação de empréstimos.
